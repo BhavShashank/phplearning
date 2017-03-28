@@ -5,8 +5,8 @@
 </head>
 <body>
 	<nav>
-		<li><a href="/about.view.php">About</a></li>
-		<li><a href="/contact.view.php">Contact</a></li>
+		<li><a href="/about">About</a></li>
+		<li><a href="/contact">Contact</a></li>
 	</nav>
 	<ul>
 		<?php foreach($task as $tasks): ?>
