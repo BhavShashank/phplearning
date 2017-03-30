@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>About Culture</title>
-</head>
-<body>
-	<h1>About Culture</h1>
-</body>
-</html>
+<?php require 'partials/head.php'; ?>
+	<h1>Welcome to <?= $name; ?></h1>
+<?php require 'partials/footer.php'; ?>
