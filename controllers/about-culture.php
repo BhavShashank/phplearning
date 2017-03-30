@@ -1,2 +1,3 @@
 <?php 
-	require 'views/about-culture.php';
+	$name = "Bhav Studio";
+	require 'views/about-culture.view.php';
