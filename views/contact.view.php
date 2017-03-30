@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Contact Us</title>
-</head>
-<body>
+<?php require 'partials/head.php'; ?>
 	<h1>Contact us</h1>
-	<a href="/">go back</a>
-</body>
-</html>
+<?php require 'partials/footer.php'; ?>

@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Laracasts</title>
-</head>
-<body>
-	<nav>
-		<li><a href="/about">About</a></li>
-		<li><a href="/contact">Contact</a></li>
-	</nav>
+<?php require 'partials/head.php'; ?>
 	<ul>
 		<?php foreach($task as $tasks): ?>
 			<li>
@@ -21,5 +12,4 @@
 			</li>
 		<?php endforeach; ?>
 	</ul>
-</body>
-</html>
+<?php require 'partials/footer.php'; ?>
