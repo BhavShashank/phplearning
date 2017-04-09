@@ -10,7 +10,7 @@ All the required files are in core/bootstrap.php
 All the front files are located in views folder and is controlled by controller folder, every files has its own controller files in controllers folder.
 
 Database structure: 
-	CREATE TABLE IF NOT EXISTS `test`.`users` (
+	CREATE TABLE IF NOT EXISTS `users` (
   	`id` int(11) NOT NULL AUTO_INCREMENT,
 	`name` varchar(50) NOT NULL,
 	PRIMARY KEY (`id`)
