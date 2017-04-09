@@ -2,7 +2,7 @@
 	return [
 		'database' => [
 			'connection' 	=> 'mysql:host=localhost',
-			'name' 			=> 'test',
+			'name' 			=> 'todo',
 			'username' 		=> 'root',
 			'password' 		=> '',
 			'options' 		=> [
