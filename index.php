@@ -1,6 +1,6 @@
 <?php
-	
-	$query = require 'core/bootstrap.php';	
-	$uri = trim($_SERVER['REQUEST_URI'], '/');
-	require Router::load('routes.php')
-		->direct($uri);
+	require 'vendor/autoload.php';
+	require 'core/bootstrap.php';	
+	use App\Core\{Request, Router};
+	Router::load('app/routes.php')
+		->direct(Request::uri(), Request::method());
